@@ -12,7 +12,7 @@ add_message_files(FILES
 	PointsOfInterest.msg
 	RegionOfInterest.msg
 	RegionsOfInterest.msg
-	#ModifyPOI.msg
+	ModifyPOI.msg
 	TargetUnreachable.msg
 	StartNavigation.msg
 	NavigateToPOI.msg
@@ -27,7 +27,7 @@ add_service_files(FILES
 	LoadMap.srv
 	SaveMap.srv
     AddPOI.srv
-    ModifyPOI.srv
+    #ModifyPOI.srv
     DeletePOI.srv
     SetMapPose.srv
 )
